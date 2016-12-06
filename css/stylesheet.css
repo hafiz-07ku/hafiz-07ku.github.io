@@ -1,112 +1,90 @@
 body {
-    font-family: 'Playfair Display', serif;
-    color: #00000;
-    background-color: seagreen;
-    padding: 100px 0px;
-
-}
-
-
-ul {
-    padding: 0px;
-}
-
-
-li {
-    list-style: none;
-}
-
-
-
-
-/* End of general body styling*/
-
-                    /*********************************************/
-
-/* Beginning of specific styling */
-
-
-.body_block {
-    position: relative;
-    line-height: 2;
-    width: 100%;
-    max-width: 700px;
-    border: 3px solid blue;
-    margin: 0 auto;
-    padding: 80px;
-    background-color: white;
-    text-align: center;
-    border-radius: 30px;
-
-}
-
-
-.profile_pic {
-    position: absolute;
-    top: -120px;
-    left: 30px;
-    height: 250px;
-    width: 300px;
-    border-radius: 50%;
-    background: url('../images/IMG_9708.jpg');
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
     background-size: cover;
-    
-    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+                    
 }
 
-.profile-name {
-    font-family: 'Indie Flower', cursive;
-    text-shadow: 5px;
-/*    margin-left: 300px;*/
-    font-weight: 600;
-    font-style: italic;
-    margin: 5px auto;
-    color: #BC17DF;
+a:link {
+    text-decoration: none;
 }
 
-.address {
-    font-size: 21px;
-    font-weight: 600;
-    line-height: 1.3;
-    margin-top: 9px;
-    margin-left: 0px;
-    margin-right: 0px;
-    color: #808080;
-    
+a:visited {
+    text-decoration: none;
 }
 
-p.description {
-    font-size: 16px;
-    margin: 0px;
-    text-align: left;
-    
-    
+a:hover {
+ 
+}
+
+a:active {
+    border: 2px solid #7C7063;
+    border-radius: 0px 40px 40px 0px;
 }
 
 
-.list_info {
-    font-size: 14px;
-    margin: 0px;
-    text-transform: uppercase;
+/*General Styling*/
+            
+#wrapper {
+    width: 960px;
+    height: auto;
+    background: #8FC8D3;
+    border-left: 5px solid #A09885;
+    border-right: 5px solid #A09885;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+            
+#header {
+    width: 100%;
+    height: 110px;
+    border-bottom: 3px solid #7C7063;
+}
+.logo_part {
+    width: 680px;
+    height: 110px;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+.logo {
+    height: : 100px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+
+}
     
+.page_title {
+    font-family: Lobster, cursive;
+    font-size: 30px;
+    text-align: center;
+
 }
 
-
-.info_header {
-    font-size: 14px;
-    font-weight: 700;
-    margin: 30px 0px 6px 0px;
+.social_media {
+    height: 110px;
+    width: 260px;
+    float: right;  
 }
 
-
-.social li {
-    display: inline-block;
+.social_media ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 5px;
 }
 
 .clickable_btn {
-    width: 40px;
-    height: 40px;
-    margin-left: 12px;
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
     -webkit-transition: 1s ease-in;
             transition: 1s ease-in;
 }
@@ -116,41 +94,96 @@ p.description {
             transform: scale(1.4);
 }
 
+.side_nav {
+    width: 265px;
+    height: 100%;
+    
+    }
 
-.clockdate-wrapper {
-    background-color: #062578;
-    padding: 25px;
-    max-height: 430px;
-    width: 100%;
+/*
+.menu {
+    width: 200px;
+    height: auto;
+    
+}
+*/
+
+
+.menu ul {
+    list-style-type: none;
+    height: auto;
+    width: 200px;
+    display: block;
+    float: left;
+}
+
+
+.menu ul li {
     text-align: center;
-    border-radius: 5px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    
+    padding: 25px;
+
 }
 
-#clock {
-    background-color: #062578;
-    font-family: sans-serif;
-    font-size: 60px;
-    text-shadow: 0px 0px 1px #fff;
-    color: #fff;
-    
+.menu ul li a {
+    background: #B7750A;
+    display: block;
+    padding: 7px;
+/*
+    height: 30px;
+    width: 90px;
+*/
 }
 
-#cock span {
-    color: #888;
-    text-shadow: 0px 0px 0px #333;
-    font-size: 30px;
-    position: relative;
-    top: -27px;
-    left: -10px;
-    
+.menu ul li a:hover {
+    border: 2px solid #7C7063;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    font-weight: bold;
+    background-color: #10660A;
+/*    padding: 10px;*/
+
+
 }
 
-#date {
-    letter-spacing: 10px;
-    font-size: 14px;
-    font-family: arial, sans-serif;
-    color: #fff;
+.content_area {
+    width: 675px;
+    height: 100%;
+    float: right;
+    border-left: 5px solid #7C7063;
+    padding: 10px;
+    text-align: justify;
+}
+
+.boxer_image {
+    height: 300px; 
+    width: 350px; 
+    padding: 10px; 
+    float: right;
+}
+
+.boxer_app_img {
+    height: 300px; 
+    width: 350px; 
+    padding: 10px; 
+    float: left;
+}
+
+.coat_div {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.coat_div img {
+    height: 140px;
+    width: 140px;
+}
+
+.food_table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
 }
