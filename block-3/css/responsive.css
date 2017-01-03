@@ -1,0 +1,58 @@
+body {
+    color: red;
+}
+
+.right_column {
+    display: none;
+}
+
+.left_column {
+    width: 25%;
+}
+
+.content_zone {
+    width: 75%
+}
+
+@media screen and (max-width:760px) {
+    .bd_intro_video {
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:550px){
+    body {
+        background-color: white;
+        color: green;
+    }
+    .left_column  {
+        display: none;
+    }
+    
+    .sub_decription {
+        background-color: white;
+    }
+    
+    
+    .ad_zone_body {
+        display: none;
+    }
+    .content_zone {
+        width: 100%;
+        background-color: white;
+    }
+    
+    .sub_description {
+        width: 100%;
+        background-color: white;
+    }
+    
+    .main_description {
+        background-color: white;
+    }
+}
